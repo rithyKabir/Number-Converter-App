@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity2">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/dis3"
+        android:scaleType="fitXY">
+
+    </ImageView>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+
+        >
+    <TableRow
+        android:id="@+id/table1"
+        android:layout_height="40dp"
+
+        android:layout_width="match_parent"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_gravity="center"
+             android:layout_span="3"
+            android:text="Available Convertions"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp">
+
+        </TextView>
+    </TableRow>
+        <TableRow
+           android:id="@+id/row1"
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="BINARY"
+
+                android:textColor="@android:color/background_light"
+                android:textSize="30dp"></TextView>
+
+            <TextView
+                android:text="DECIMAL"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btod"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+
+                android:background="@android:color/holo_blue_dark"
+                android:text="Go">
+            </Button>
+        </TableRow>
+        <TableRow
+            android:id="@+id/roww2"
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="DECIMAL"
+
+                android:textColor="@android:color/background_light"
+                android:textSize="27dp"></TextView>
+
+            <TextView
+                android:text="BINARY"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="30dp"></TextView>
+
+            <Button
+                android:id="@+id/dtob"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+
+                android:background="@android:color/holo_blue_dark"
+                android:text="Go">
+            </Button>
+        </TableRow>
+        <TableRow
+         android:id="@+id/row2"
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="DECIMAL"
+
+                android:textColor="@android:color/background_light"
+                android:textSize="26dp"></TextView>
+
+            <TextView
+                android:text="HEXA"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="30dp"></TextView>
+
+            <Button
+                android:id="@+id/dtoh"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+
+                android:background="@android:color/holo_blue_dark"
+                android:text="Go">
+            </Button>
+        </TableRow>
+        <TableRow
+            android:id="@+id/row3"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="BINARY"
+
+                android:textColor="@android:color/background_light"
+                android:textSize="30dp"></TextView>
+
+            <TextView
+                android:text="HEXA"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="30dp"></TextView>
+
+            <Button
+                android:id="@+id/btoh"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+
+                android:background="@android:color/holo_blue_dark"
+                android:text="Go">
+            </Button>
+        </TableRow>
+        <TableRow
+            android:id="@+id/row5"
+
+            >
+
+            <TextView
+                android:text="HEXA "
+
+                android:textColor="@android:color/background_light"
+                android:textSize="30dp"></TextView>
+
+            <TextView
+                android:layout_width="137dp"
+                android:text="BINARY"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="30dp"></TextView>
+            <Button
+                android:id="@+id/htob"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+
+                android:background="@android:color/holo_blue_dark"
+                android:text="Go">
+            </Button>
+        </TableRow>
+        <TableRow
+            android:id="@+id/row9"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="HEXA"
+
+                android:textColor="@android:color/background_light"
+                android:textSize="30dp"></TextView>
+
+            <TextView
+                android:text="DECIMAL"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="30dp"></TextView>
+
+            <Button
+                android:id="@+id/htod"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+
+                android:background="@android:color/holo_blue_dark"
+                android:text="Go">
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

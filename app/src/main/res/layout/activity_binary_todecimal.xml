@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".binaryTodecimal">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/dis2"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/textConvertBtoD"
+         android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:hint="Enter your number here"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/convertBtoD"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="CONVERT"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/hexa">
+
+        </Button>
+    </LinearLayout>
+</RelativeLayout>
